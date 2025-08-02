@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Create a remove button
         const removeBtn = document.createElement('button');
         removeBtn.textContent = 'Remove';
-        removeBtn.className = 'remove-btn'; // ← This is correct and allowed!
+        removeBtn.classList.add = 'remove-btn'; // ← This is correct and allowed!
 
         // Add click event to remove the task
         removeBtn.onclick = function () {
